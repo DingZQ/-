@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.neirong{
+    background-color: #ffffff;
+}
+
+/* 轮播图 */
+
+#c1 {
+    width: 1080px;
+    height: 345px;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#cc1 {
+    width: 3240px;
+    height: 345px;
+    position:absolute;
+    left:0px;
+}
+
+#cc1 img {
+    margin: 0;
+    padding: 0;
+    width: 1080px;
+    height: 345px;
+}
+
+#cc1>ul>li {
+    float: left
+}
+
+
+/* 导航栏 */
+
+#nav {
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    left: calc(50% - 600px);
+    margin-top: 40px;
+}
+
+.neirong > div > h2{
+    margin: 40px 0 10px 0;
+    padding: 10px 0px 10px 5px;
+    background: linear-gradient(to right, aqua 0%,#ffffff 30%);
+}
+#nav #tu2 {
+    position: absolute;
+    left: 133.33px;
+    transition: 1s;
+}
+
+#tu3 {
+    position: absolute;
+    left: 266.66px;
+    transition: 1s;
+}
+
+#tu4 {
+    position: absolute;
+    left: 399.99px;
+    transition: 1s;
+}
+
+#tu5 {
+    position: absolute;
+    left: 533.33px;
+    transition: 1s;
+}
+
+#tu6 {
+    position: absolute;
+    left: 666.66px;
+    transition: 1s;
+}
+
+#tu7 {
+    position: absolute;
+    left: 799.98px;
+    transition: 1s;
+}
+
+#tu8 {
+    position: absolute;
+    left: 933.33px;
+    transition: 1s;
+}
+
+#tu9 {
+    position: absolute;
+    left: 1066.66px;
+    transition: 1s;
+}
+.fctu {
+    margin-top: 30px;
+}
+.fctu > img {
+    width: 600px;
+    height: 300px;
+}
+.navh2{
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* 侧边栏 */
+
+.cebianlan {
+    position: fixed;
+    right: 0px;
+    top: 15%;
+    width: 10%;
+    height: 71%;
+    box-shadow: 2px 1px 5px #333333;
+}
+
+.cebianlan>ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cebianlan>ul>li {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.cebianlan>ul>li>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    line-height: 50px;
+    text-align: center;
+    background-color: #1178b3;
+}
